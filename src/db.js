@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const URI = 'mongodb://localhost:27017/animals'
+const URI = 'mongodb://localhost:27017/task'
 
 mongoose.connect(URI)
 	.then(db => console.log('DB is connect'))
